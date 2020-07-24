@@ -1,0 +1,20 @@
+{
+  "name": "vue-cli-plugin-yapi",
+  "version": "1.0.0",
+  "description": "vue-cli plugin to connet yapi server",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "npm run build",
+    "init": "cd client-addon && npm install",
+    "serve": "cd client-addon && npm run serve",
+    "build": "cd client-addon && npm run build",
+    "lint": "cd client-addon && npm run lint"
+  },
+  "author": "HQC",
+  "license": "MIT",
+  "dependencies": {
+    "cli": "^1.0.1",
+    "global": "^4.4.0",
+    "vue": "^2.6.11"
+  }
+}
